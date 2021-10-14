@@ -7,14 +7,16 @@
     "license": "Apache-2.0",
     "require": {
         "php": "^7.4 || ^8.0",
-        "ext-json": "*",
         "ext-grpc": "*",
-        "promphp/prometheus_client_php": "^2.2.1",
-        "grpc/grpc": "^1.30",
+        "ext-json": "*",
         "google/protobuf": "^v3.3.0",
+        "grpc/grpc": "^1.30",
+        "nyholm/dsn": "^2.0.0",
+        "php-http/discovery": "^1.14",
+        "promphp/prometheus_client_php": "^2.2.1",
         "psr/http-client-implementation": "^1.0",
         "psr/http-factory-implementation": "^1.0",
-        "nyholm/dsn": "^2.0.0"
+        "symfony/options-resolver": "^5.3"
     },
     "config": {
         "sort-packages": true
@@ -50,6 +52,7 @@
         "friendsofphp/php-cs-fixer": "^3.0",
         "guzzlehttp/guzzle": "^7.3",
         "guzzlehttp/psr7": "^2.0@RC",
+        "kriswallsmith/buzz": "^1.2",
         "mockery/mockery": "^1.4",
         "nyholm/psr7": "^1.4",
         "phan/phan": "^5.0",
