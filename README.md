@@ -2,6 +2,7 @@
 
 ![CI Build](https://github.com/open-telemetry/opentelemetry-php/workflows/PHP%20QA/badge.svg)
 [![codecov](https://codecov.io/gh/open-telemetry/opentelemetry-php/branch/master/graph/badge.svg)](https://codecov.io/gh/open-telemetry/opentelemetry-php)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftidal%2Fopentelemetry-php.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftidal%2Fopentelemetry-php?ref=badge_shield)
 
 This is the **[monorepo](https://en.wikipedia.org/wiki/Monorepo)** for the **main** components of **[OpenTelemetry](https://opentelemetry.io/) PHP**. 
 The main library is distributed as a complete package: [open-telemetry/opentelemetry](https://packagist.org/packages/open-telemetry/opentelemetry) 
@@ -367,3 +368,7 @@ The easy way to test the example out with docker and docker-compose is:
 ## Versioning
 
 Versioning rationale can be found in the [Versioning Documentation](/docs/versioning.md)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftidal%2Fopentelemetry-php.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftidal%2Fopentelemetry-php?ref=badge_large)
